@@ -1,0 +1,39 @@
+body{
+    background-color:grey;
+}
+.navbar-text{
+    text-align-last: center;
+    text-align: center;
+    padding-left: 40%;
+}
+.contenedor1{
+    text-align-last: center;
+    text-align: center;
+    align-content: center;
+    
+}
+.entrar{
+    text-align: center;
+    margin-top: 3%;
+    padding-left: 85%;
+}
+.registrarse{
+    padding-left: 85%;
+    text-align: center;
+}
+.registrar_dato{
+    margin-top: 1%;
+    
+}
+.iniciar_sesion{
+    margin-top: 1%;
+}
+input{
+    text-align:center;
+}
+nav.navbar{
+    background-color:#cf9494;
+}
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

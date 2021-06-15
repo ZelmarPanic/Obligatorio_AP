@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Grand Pontiff's</title>
+  <link rel="icon" href="icono.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src="JQuery.js" ref="3.6.0"></script>
+  <script src='main.js'></script>
+</head>
+  <body onload="ocultarDiv()">
+  
+    <div class="contenedor1">
+      <nav class="navbar navbar-dark bg-dark">
+       <h1 class="navbar-text">Grand Pontiff's</h1>
+       <input onclick="Ingresar()" type="button" class="btn btn-primary" value="Ingresar">
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand">Inicio</a>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+              <a class="nav-link">Rubros</a>
+              <a class="nav-link">Eventos</a>
+              <a class="nav-link">Modalidades</a>
+              <a class="nav-link">Disciplinas</a>
+          </ul>
+          <span class="navbar-text">
+            Copyright © Logia Grand Pontiff's @2021
+          </span>
+        </div>
+      </nav>
+    </div>
+    
+    <div class="contenedor2" id="contenedor2">
+      <div class="registrarse">
+        <br>
+       
+          <h2 style="font-family: monospace;">Registrarse</h2>
+          <input id="Usuario" type="text" placeholder="Usuario" class="usuario">
+          <input id="Correo" type="text" placeholder="Correo" class="correo">
+          <input id="password" type="password" placeholder="Contraseña" class="pass">
+          <input onclick="registrar()" type="submit" class="btn btn-primary registrar_dato" id="registrar_dato" value="REGISTRARSE">
+        </div>
+         <form>
+            <div class="entrar">
+            <h2 style="font-family: monospace;">Iniciar Sesión</h2>
+            <input type="text" placeholder="Usuario o Correo"><br>
+            <input type="password" placeholder="Contraseña"><br>
+            <input onclick="logearse()" type="button" class="btn btn-primary iniciar_sesion" id="iniciar" value="INICIAR SESIÓN">
+          </form>
+        </div>
+      </div>
+
+<!-- %wcP(@ERnWQUhN!TTxMB -->
+</body>
+</html>
